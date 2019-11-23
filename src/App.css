@@ -476,7 +476,7 @@ a{
     .logoTitle span{
         font-size: 12px;
     }
-    .nav-bar li{
+    .link{
         padding: 0 5px;
     }
     .hero-animation{
@@ -593,7 +593,7 @@ a{
     top: 17px;
     font-size: 20px;
 }
-.nav-bar li{
+.link{
     font-size: 10px;
 }
 .single-property-title{
