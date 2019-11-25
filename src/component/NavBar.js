@@ -16,7 +16,7 @@ export default function NavBar() {
                         <Link className='link' to='/'> Početna</Link>
                         <HashLink className='link' to='#about'>O nama</HashLink>
                         <HashLink className='link' to='#contact'>Kontakt</HashLink>
-                        <Link className='link' to='/Gallery'> Galerija</Link>
+                        <Link className='link' to='/Gallery'>Ponude</Link>
 
                     </ul>
                 </div>

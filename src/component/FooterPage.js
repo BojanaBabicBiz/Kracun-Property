@@ -12,7 +12,7 @@ export default function FooterPage() {
                 </h1>
                     <ul>
                         <li><IoIosPin /> Sv.Markovica 12 Kovin</li>
-                        <a href={"mailto:Kracunus@yahoo.com"}>   <li><FaEnvelope /> Kracunus@yahoo.com</li></a>
+                        <a href={"mailto:kracunus@yahoo.com"}>   <li><FaEnvelope /> Kracunus@yahoo.com</li></a>
                         <li><IoIosPhonePortrait /> 060/1234567</li>
                         <li><FaPhone /> 011/1234567</li>
                     </ul>
