@@ -37,14 +37,14 @@ export default class SingleHousePage extends Component {
         let singleImage = images.map((image, index) => {
             return <img className="smallImage" key={index} src={image} alt="img" />
         })
-        console.log(singleImage);
+
 
         return (
             <div>
                 <Navbar />
                 <div className="single-property-wrapper">
                     <div className="hero-image">
-                        <img src={images[0]} alt="img" />
+                        <img className="single-property-banner" src={images[0]} alt="img" />
                     </div>
                     <h1 className="single-property-title ">{name}</h1>
                     <div className="small-images">
@@ -54,9 +54,9 @@ export default class SingleHousePage extends Component {
                         <h1 className="property-title">{name}</h1>
                         <p className="address">{location}</p>
                         <div className="info">
-                            <h4 className="property-size"><GiResize /> Size: {size}m2</h4>
-                            <h4 className="property-size"><FaBed /> Bedrooms: {bedrooms}</h4>
-                            <h4 className="property-bathrooms"><FaBath />  Bathrooms: {bathrooms}</h4>
+                            <h4 className="property-size"><GiResize /> Kvadratura: {size}m2</h4>
+                            <h4 className="property-size"><FaBed /> Spavace sobe: {bedrooms}</h4>
+                            <h4 className="property-bathrooms"><FaBath />  Kupatila: {bathrooms}</h4>
                             <h4 className='property-capacity'>Status: {status}</h4>
                             <h4 className="property-size">Tip Nekretnine: {type}</h4>
                             <h4 className='property-price'>Cena:  {price} &euro;</h4>

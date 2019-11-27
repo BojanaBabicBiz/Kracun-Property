@@ -2,7 +2,7 @@ import React from 'react';
 import Property from './Property'
 import Footer from '../component/FooterPage';
 import { Link } from 'react-router-dom';
-import Pdf_property from './Pdf_property'
+// import Pdf_property from './Pdf_property'
 export default function PropertyList({ rooms }) {
 
 
@@ -14,7 +14,7 @@ export default function PropertyList({ rooms }) {
                     return <Property key={item.id} room={item} />
                 })}
             </div>
-            <Pdf_property />
+            {/* <Pdf_property /> */}
             <Footer />
         </section>
     );
