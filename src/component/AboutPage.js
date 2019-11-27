@@ -1,5 +1,5 @@
 import React from 'react';
-import teamImage from '../images/team.png'
+import teamImage from '../images/team.jpg'
 
 export default function AboutPage() {
     return (

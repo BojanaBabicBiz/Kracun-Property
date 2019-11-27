@@ -14,7 +14,7 @@ class RoomProvider extends Component {
         address: '',
         status: 'sve',
         location: 'sve',
-        size: 0,
+        size: '',
         bedrooms: 0,
         bathrooms: 0,
         maxPrice: 0

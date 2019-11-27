@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoIosPin, IoIosPhonePortrait } from 'react-icons/io'
-import { FaEnvelope, FaPhone, FaFacebookF, FaInstagram, FaLinkedinIn, FaCaretRight } from 'react-icons/fa'
+import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaCaretRight } from 'react-icons/fa'
 
 export default function FooterPage() {
     return (
@@ -12,9 +12,13 @@ export default function FooterPage() {
                 </h1>
                     <ul>
                         <li><IoIosPin /> Sv.Markovica 12 Kovin</li>
-                        <a href={"mailto:kracunus@yahoo.com"}>   <li><FaEnvelope /> Kracunus@yahoo.com</li></a>
-                        <li><IoIosPhonePortrait /> 060/1234567</li>
-                        <li><FaPhone /> 011/1234567</li>
+                        <li><IoIosPin /> Dr. Jovana Cvijica 18</li>
+
+                        <li><IoIosPhonePortrait /> 069/ 3294199</li>
+                        <a className="show-all-btn" href={"mailto:kracunus@yahoo.com"}>kracunus@yahoo.com</a>
+                        <li>Broj u registru posrednika 960</li>
+
+
                     </ul>
                 </div>
 
@@ -35,7 +39,9 @@ export default function FooterPage() {
                         <li><FaLinkedinIn /></li>
                     </ul>
                 </div>
+
             </div>
+
         </div>
     );
 }
